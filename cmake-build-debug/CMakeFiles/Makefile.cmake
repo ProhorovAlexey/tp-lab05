@@ -69,23 +69,23 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
-  "third-party/gtest/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "third-party/gtest/googletest/generated/gmock.pc"
-  "third-party/gtest/googletest/generated/gmock_main.pc"
-  "third-party/gtest/googlemock/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "third-party/gtest/googletest/generated/GTestConfigVersion.cmake"
-  "third-party/gtest/googletest/generated/GTestConfig.cmake"
-  "third-party/gtest/googletest/generated/gtest.pc"
-  "third-party/gtest/googletest/generated/gtest_main.pc"
-  "third-party/gtest/googletest/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "test_dir/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "test_dir/googletest/generated/gmock.pc"
+  "test_dir/googletest/generated/gmock_main.pc"
+  "test_dir/googlemock/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "test_dir/googletest/generated/GTestConfigVersion.cmake"
+  "test_dir/googletest/generated/GTestConfig.cmake"
+  "test_dir/googletest/generated/gtest.pc"
+  "test_dir/googletest/generated/gtest_main.pc"
+  "test_dir/googletest/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/banking.dir/DependInfo.cmake"
   "CMakeFiles/tests.dir/DependInfo.cmake"
-  "third-party/gtest/googlemock/CMakeFiles/gmock.dir/DependInfo.cmake"
-  "third-party/gtest/googlemock/CMakeFiles/gmock_main.dir/DependInfo.cmake"
-  "third-party/gtest/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
-  "third-party/gtest/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
+  "test_dir/googlemock/CMakeFiles/gmock.dir/DependInfo.cmake"
+  "test_dir/googlemock/CMakeFiles/gmock_main.dir/DependInfo.cmake"
+  "test_dir/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
+  "test_dir/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
   )
