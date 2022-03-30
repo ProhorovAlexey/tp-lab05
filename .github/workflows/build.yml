@@ -1,0 +1,23 @@
+name: lab05
+on: [ push ]
+jobs:
+ build:
+  runs-on: ubuntu-latest
+  steps:
+   - name: checkout
+     uses: actions/checkout@master
+   - name: build library
+     run: |
+      cmake -B ./banking_lib_output
+      cd build
+      make
+ tests:
+  runs-on: ubuntu-latest
+  steps:
+    - name: checkout
+      uses: actions/checkout@master
+    - name: testing
+      run: |
+        cd build
+        ./tests
+
