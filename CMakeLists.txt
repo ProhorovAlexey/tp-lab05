@@ -23,3 +23,5 @@ if(BUILD_TESTS)
   target_link_libraries(tests ${PROJECT_NAME} gtest_main)
   add_test(NAME unit_test COMMAND tests)
 endif()
+
+SET(GCC_COVERAGE_COMPILE_FLAGS "-fprofile-arcs -ftest-coverage")
