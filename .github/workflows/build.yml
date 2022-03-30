@@ -33,7 +33,7 @@ jobs:
     - name: run gcovr
       run: |
         sudo pip install gcovr
-        gocvr tests/test.cpp -o report
+        gocvr test.cpp -o report
 
     - name: run lcov
       run: lcov --capture --directory . --output-file lcov.info
