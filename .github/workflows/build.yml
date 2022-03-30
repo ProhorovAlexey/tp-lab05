@@ -26,7 +26,7 @@ jobs:
         ./tests
     - name: npm install, make test-coverage
       run: |
-        npm install
+        npm install coveralls --save-dev
         make test-coverage
     - name: Coveralls
       uses: coverallsapp/github-action@master
