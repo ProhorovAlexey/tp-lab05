@@ -17,7 +17,6 @@ set(CMAKE_CXX_COMPILER_ID "AppleClang")
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../include"
   "../third-party"
-  "../third-party/gtest"
   )
 
 # The set of dependency files which are needed:

@@ -6,25 +6,3 @@
 
 #IncludeRegexTransform: 
 
-/Users/roflanpotsan/roflanpotsan/tp-lab05/banking/Account.cpp
-../include/Account.h
-/Users/roflanpotsan/roflanpotsan/tp-lab05/include/Account.h
-stdexcept
--
-
-/Users/roflanpotsan/roflanpotsan/tp-lab05/banking/Transaction.cpp
-../include/Transaction.h
-/Users/roflanpotsan/roflanpotsan/tp-lab05/include/Transaction.h
-cassert
--
-iostream
--
-stdexcept
--
-../include/Account.h
-/Users/roflanpotsan/roflanpotsan/tp-lab05/include/Account.h
-
-/Users/roflanpotsan/roflanpotsan/tp-lab05/include/Account.h
-
-/Users/roflanpotsan/roflanpotsan/tp-lab05/include/Transaction.h
-
