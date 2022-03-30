@@ -207,7 +207,7 @@ gmock: cmake_check_build_system
 
 # fast build rule for target.
 gmock/fast:
-	$(MAKE) $(MAKESILENT) -f test_dir/googlemock/CMakeFiles/gmock.dir/build.make test_dir/googlemock/CMakeFiles/gmock.dir/build
+	$(MAKE) $(MAKESILENT) -f third-party/gtest/googlemock/CMakeFiles/gmock.dir/build.make third-party/gtest/googlemock/CMakeFiles/gmock.dir/build
 .PHONY : gmock/fast
 
 #=============================================================================
@@ -220,7 +220,7 @@ gmock_main: cmake_check_build_system
 
 # fast build rule for target.
 gmock_main/fast:
-	$(MAKE) $(MAKESILENT) -f test_dir/googlemock/CMakeFiles/gmock_main.dir/build.make test_dir/googlemock/CMakeFiles/gmock_main.dir/build
+	$(MAKE) $(MAKESILENT) -f third-party/gtest/googlemock/CMakeFiles/gmock_main.dir/build.make third-party/gtest/googlemock/CMakeFiles/gmock_main.dir/build
 .PHONY : gmock_main/fast
 
 #=============================================================================
@@ -233,7 +233,7 @@ gtest_main: cmake_check_build_system
 
 # fast build rule for target.
 gtest_main/fast:
-	$(MAKE) $(MAKESILENT) -f test_dir/googletest/CMakeFiles/gtest_main.dir/build.make test_dir/googletest/CMakeFiles/gtest_main.dir/build
+	$(MAKE) $(MAKESILENT) -f third-party/gtest/googletest/CMakeFiles/gtest_main.dir/build.make third-party/gtest/googletest/CMakeFiles/gtest_main.dir/build
 .PHONY : gtest_main/fast
 
 #=============================================================================
@@ -246,7 +246,7 @@ gtest: cmake_check_build_system
 
 # fast build rule for target.
 gtest/fast:
-	$(MAKE) $(MAKESILENT) -f test_dir/googletest/CMakeFiles/gtest.dir/build.make test_dir/googletest/CMakeFiles/gtest.dir/build
+	$(MAKE) $(MAKESILENT) -f third-party/gtest/googletest/CMakeFiles/gtest.dir/build.make third-party/gtest/googletest/CMakeFiles/gtest.dir/build
 .PHONY : gtest/fast
 
 banking/Account.o: banking/Account.cpp.o

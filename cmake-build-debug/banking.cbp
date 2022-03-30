@@ -55,7 +55,6 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/Users/roflanpotsan/roflanpotsan/tp-lab05/include"/>
-					<Add directory="/Users/roflanpotsan/roflanpotsan/tp-lab05/third-party/gtest"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
@@ -78,7 +77,6 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/Users/roflanpotsan/roflanpotsan/tp-lab05/include"/>
-					<Add directory="/Users/roflanpotsan/roflanpotsan/tp-lab05/third-party/gtest"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
@@ -111,7 +109,6 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/Users/roflanpotsan/roflanpotsan/tp-lab05/include"/>
-					<Add directory="/Users/roflanpotsan/roflanpotsan/tp-lab05/third-party/gtest"/>
 					<Add directory="/Users/roflanpotsan/roflanpotsan/tp-lab05/third-party/gtest/googletest/include"/>
 					<Add directory="/Users/roflanpotsan/roflanpotsan/tp-lab05/third-party/gtest/googletest"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
@@ -136,7 +133,6 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/Users/roflanpotsan/roflanpotsan/tp-lab05/include"/>
-					<Add directory="/Users/roflanpotsan/roflanpotsan/tp-lab05/third-party/gtest"/>
 					<Add directory="/Users/roflanpotsan/roflanpotsan/tp-lab05/third-party/gtest/googletest/include"/>
 					<Add directory="/Users/roflanpotsan/roflanpotsan/tp-lab05/third-party/gtest/googletest"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
@@ -185,7 +181,7 @@
 			</Target>
 			<Target title="gmock">
 				<Option output="/Users/roflanpotsan/roflanpotsan/tp-lab05/cmake-build-debug/lib/libgmock.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/roflanpotsan/roflanpotsan/tp-lab05/cmake-build-debug/test_dir/googlemock"/>
+				<Option working_dir="/Users/roflanpotsan/roflanpotsan/tp-lab05/cmake-build-debug/third-party/gtest/googlemock"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
@@ -202,15 +198,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/roflanpotsan/roflanpotsan/tp-lab05/cmake-build-debug/test_dir/googlemock/Makefile&quot;  VERBOSE=1 gmock"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/roflanpotsan/roflanpotsan/tp-lab05/cmake-build-debug/test_dir/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/roflanpotsan/roflanpotsan/tp-lab05/cmake-build-debug/test_dir/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/roflanpotsan/roflanpotsan/tp-lab05/cmake-build-debug/test_dir/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/roflanpotsan/roflanpotsan/tp-lab05/cmake-build-debug/third-party/gtest/googlemock/Makefile&quot;  VERBOSE=1 gmock"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/roflanpotsan/roflanpotsan/tp-lab05/cmake-build-debug/third-party/gtest/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/roflanpotsan/roflanpotsan/tp-lab05/cmake-build-debug/third-party/gtest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/roflanpotsan/roflanpotsan/tp-lab05/cmake-build-debug/third-party/gtest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gmock/fast">
 				<Option output="/Users/roflanpotsan/roflanpotsan/tp-lab05/cmake-build-debug/lib/libgmock.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/roflanpotsan/roflanpotsan/tp-lab05/cmake-build-debug/test_dir/googlemock"/>
+				<Option working_dir="/Users/roflanpotsan/roflanpotsan/tp-lab05/cmake-build-debug/third-party/gtest/googlemock"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
@@ -227,15 +223,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/roflanpotsan/roflanpotsan/tp-lab05/cmake-build-debug/test_dir/googlemock/Makefile&quot;  VERBOSE=1 gmock/fast"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/roflanpotsan/roflanpotsan/tp-lab05/cmake-build-debug/test_dir/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/roflanpotsan/roflanpotsan/tp-lab05/cmake-build-debug/test_dir/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/roflanpotsan/roflanpotsan/tp-lab05/cmake-build-debug/test_dir/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/roflanpotsan/roflanpotsan/tp-lab05/cmake-build-debug/third-party/gtest/googlemock/Makefile&quot;  VERBOSE=1 gmock/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/roflanpotsan/roflanpotsan/tp-lab05/cmake-build-debug/third-party/gtest/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/roflanpotsan/roflanpotsan/tp-lab05/cmake-build-debug/third-party/gtest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/roflanpotsan/roflanpotsan/tp-lab05/cmake-build-debug/third-party/gtest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gmock_main">
 				<Option output="/Users/roflanpotsan/roflanpotsan/tp-lab05/cmake-build-debug/lib/libgmock_main.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/roflanpotsan/roflanpotsan/tp-lab05/cmake-build-debug/test_dir/googlemock"/>
+				<Option working_dir="/Users/roflanpotsan/roflanpotsan/tp-lab05/cmake-build-debug/third-party/gtest/googlemock"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
@@ -252,15 +248,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/roflanpotsan/roflanpotsan/tp-lab05/cmake-build-debug/test_dir/googlemock/Makefile&quot;  VERBOSE=1 gmock_main"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/roflanpotsan/roflanpotsan/tp-lab05/cmake-build-debug/test_dir/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/roflanpotsan/roflanpotsan/tp-lab05/cmake-build-debug/test_dir/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/roflanpotsan/roflanpotsan/tp-lab05/cmake-build-debug/test_dir/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/roflanpotsan/roflanpotsan/tp-lab05/cmake-build-debug/third-party/gtest/googlemock/Makefile&quot;  VERBOSE=1 gmock_main"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/roflanpotsan/roflanpotsan/tp-lab05/cmake-build-debug/third-party/gtest/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/roflanpotsan/roflanpotsan/tp-lab05/cmake-build-debug/third-party/gtest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/roflanpotsan/roflanpotsan/tp-lab05/cmake-build-debug/third-party/gtest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gmock_main/fast">
 				<Option output="/Users/roflanpotsan/roflanpotsan/tp-lab05/cmake-build-debug/lib/libgmock_main.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/roflanpotsan/roflanpotsan/tp-lab05/cmake-build-debug/test_dir/googlemock"/>
+				<Option working_dir="/Users/roflanpotsan/roflanpotsan/tp-lab05/cmake-build-debug/third-party/gtest/googlemock"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
@@ -277,15 +273,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/roflanpotsan/roflanpotsan/tp-lab05/cmake-build-debug/test_dir/googlemock/Makefile&quot;  VERBOSE=1 gmock_main/fast"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/roflanpotsan/roflanpotsan/tp-lab05/cmake-build-debug/test_dir/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/roflanpotsan/roflanpotsan/tp-lab05/cmake-build-debug/test_dir/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/roflanpotsan/roflanpotsan/tp-lab05/cmake-build-debug/test_dir/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/roflanpotsan/roflanpotsan/tp-lab05/cmake-build-debug/third-party/gtest/googlemock/Makefile&quot;  VERBOSE=1 gmock_main/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/roflanpotsan/roflanpotsan/tp-lab05/cmake-build-debug/third-party/gtest/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/roflanpotsan/roflanpotsan/tp-lab05/cmake-build-debug/third-party/gtest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/roflanpotsan/roflanpotsan/tp-lab05/cmake-build-debug/third-party/gtest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gtest_main">
 				<Option output="/Users/roflanpotsan/roflanpotsan/tp-lab05/cmake-build-debug/lib/libgtest_main.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/roflanpotsan/roflanpotsan/tp-lab05/cmake-build-debug/test_dir/googletest"/>
+				<Option working_dir="/Users/roflanpotsan/roflanpotsan/tp-lab05/cmake-build-debug/third-party/gtest/googletest"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
@@ -300,15 +296,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/roflanpotsan/roflanpotsan/tp-lab05/cmake-build-debug/test_dir/googletest/Makefile&quot;  VERBOSE=1 gtest_main"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/roflanpotsan/roflanpotsan/tp-lab05/cmake-build-debug/test_dir/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/roflanpotsan/roflanpotsan/tp-lab05/cmake-build-debug/test_dir/googletest/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/roflanpotsan/roflanpotsan/tp-lab05/cmake-build-debug/test_dir/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/roflanpotsan/roflanpotsan/tp-lab05/cmake-build-debug/third-party/gtest/googletest/Makefile&quot;  VERBOSE=1 gtest_main"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/roflanpotsan/roflanpotsan/tp-lab05/cmake-build-debug/third-party/gtest/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/roflanpotsan/roflanpotsan/tp-lab05/cmake-build-debug/third-party/gtest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/roflanpotsan/roflanpotsan/tp-lab05/cmake-build-debug/third-party/gtest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gtest_main/fast">
 				<Option output="/Users/roflanpotsan/roflanpotsan/tp-lab05/cmake-build-debug/lib/libgtest_main.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/roflanpotsan/roflanpotsan/tp-lab05/cmake-build-debug/test_dir/googletest"/>
+				<Option working_dir="/Users/roflanpotsan/roflanpotsan/tp-lab05/cmake-build-debug/third-party/gtest/googletest"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
@@ -323,15 +319,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/roflanpotsan/roflanpotsan/tp-lab05/cmake-build-debug/test_dir/googletest/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/roflanpotsan/roflanpotsan/tp-lab05/cmake-build-debug/test_dir/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/roflanpotsan/roflanpotsan/tp-lab05/cmake-build-debug/test_dir/googletest/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/roflanpotsan/roflanpotsan/tp-lab05/cmake-build-debug/test_dir/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/roflanpotsan/roflanpotsan/tp-lab05/cmake-build-debug/third-party/gtest/googletest/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/roflanpotsan/roflanpotsan/tp-lab05/cmake-build-debug/third-party/gtest/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/roflanpotsan/roflanpotsan/tp-lab05/cmake-build-debug/third-party/gtest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/roflanpotsan/roflanpotsan/tp-lab05/cmake-build-debug/third-party/gtest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gtest">
 				<Option output="/Users/roflanpotsan/roflanpotsan/tp-lab05/cmake-build-debug/lib/libgtest.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/roflanpotsan/roflanpotsan/tp-lab05/cmake-build-debug/test_dir/googletest"/>
+				<Option working_dir="/Users/roflanpotsan/roflanpotsan/tp-lab05/cmake-build-debug/third-party/gtest/googletest"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
@@ -346,15 +342,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/roflanpotsan/roflanpotsan/tp-lab05/cmake-build-debug/test_dir/googletest/Makefile&quot;  VERBOSE=1 gtest"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/roflanpotsan/roflanpotsan/tp-lab05/cmake-build-debug/test_dir/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/roflanpotsan/roflanpotsan/tp-lab05/cmake-build-debug/test_dir/googletest/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/roflanpotsan/roflanpotsan/tp-lab05/cmake-build-debug/test_dir/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/roflanpotsan/roflanpotsan/tp-lab05/cmake-build-debug/third-party/gtest/googletest/Makefile&quot;  VERBOSE=1 gtest"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/roflanpotsan/roflanpotsan/tp-lab05/cmake-build-debug/third-party/gtest/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/roflanpotsan/roflanpotsan/tp-lab05/cmake-build-debug/third-party/gtest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/roflanpotsan/roflanpotsan/tp-lab05/cmake-build-debug/third-party/gtest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gtest/fast">
 				<Option output="/Users/roflanpotsan/roflanpotsan/tp-lab05/cmake-build-debug/lib/libgtest.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/roflanpotsan/roflanpotsan/tp-lab05/cmake-build-debug/test_dir/googletest"/>
+				<Option working_dir="/Users/roflanpotsan/roflanpotsan/tp-lab05/cmake-build-debug/third-party/gtest/googletest"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
@@ -369,10 +365,10 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/roflanpotsan/roflanpotsan/tp-lab05/cmake-build-debug/test_dir/googletest/Makefile&quot;  VERBOSE=1 gtest/fast"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/roflanpotsan/roflanpotsan/tp-lab05/cmake-build-debug/test_dir/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/roflanpotsan/roflanpotsan/tp-lab05/cmake-build-debug/test_dir/googletest/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/roflanpotsan/roflanpotsan/tp-lab05/cmake-build-debug/test_dir/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/roflanpotsan/roflanpotsan/tp-lab05/cmake-build-debug/third-party/gtest/googletest/Makefile&quot;  VERBOSE=1 gtest/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/roflanpotsan/roflanpotsan/tp-lab05/cmake-build-debug/third-party/gtest/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/roflanpotsan/roflanpotsan/tp-lab05/cmake-build-debug/third-party/gtest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/roflanpotsan/roflanpotsan/tp-lab05/cmake-build-debug/third-party/gtest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>

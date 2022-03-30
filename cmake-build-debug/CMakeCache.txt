@@ -304,7 +304,7 @@ banking_BINARY_DIR:STATIC=/Users/roflanpotsan/roflanpotsan/tp-lab05/cmake-build-
 banking_SOURCE_DIR:STATIC=/Users/roflanpotsan/roflanpotsan/tp-lab05
 
 //Value Computed by CMake
-gmock_BINARY_DIR:STATIC=/Users/roflanpotsan/roflanpotsan/tp-lab05/cmake-build-debug/test_dir/googlemock
+gmock_BINARY_DIR:STATIC=/Users/roflanpotsan/roflanpotsan/tp-lab05/cmake-build-debug/third-party/gtest/googlemock
 
 //Dependencies for the target
 gmock_LIB_DEPENDS:STATIC=general;gtest;
@@ -319,13 +319,13 @@ gmock_build_tests:BOOL=OFF
 gmock_main_LIB_DEPENDS:STATIC=general;gmock;
 
 //Value Computed by CMake
-googletest-distribution_BINARY_DIR:STATIC=/Users/roflanpotsan/roflanpotsan/tp-lab05/cmake-build-debug/test_dir
+googletest-distribution_BINARY_DIR:STATIC=/Users/roflanpotsan/roflanpotsan/tp-lab05/cmake-build-debug/third-party/gtest
 
 //Value Computed by CMake
 googletest-distribution_SOURCE_DIR:STATIC=/Users/roflanpotsan/roflanpotsan/tp-lab05/third-party/gtest
 
 //Value Computed by CMake
-gtest_BINARY_DIR:STATIC=/Users/roflanpotsan/roflanpotsan/tp-lab05/cmake-build-debug/test_dir/googletest
+gtest_BINARY_DIR:STATIC=/Users/roflanpotsan/roflanpotsan/tp-lab05/cmake-build-debug/third-party/gtest/googletest
 
 //Value Computed by CMake
 gtest_SOURCE_DIR:STATIC=/Users/roflanpotsan/roflanpotsan/tp-lab05/third-party/gtest/googletest
@@ -547,7 +547,7 @@ _Python_EXECUTABLE:INTERNAL=/Library/Developer/CommandLineTools/Library/Framewor
 _Python_INTERPRETER_PROPERTIES:INTERNAL=Python;3;8;2;64;;cpython-38-darwin;/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8;/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8;/Library/Python/3.8/site-packages;/Library/Python/3.8/site-packages
 _Python_INTERPRETER_SIGNATURE:INTERNAL=08aff68630bec5a4c6da4f45ab18d320
 cmake_package_name:INTERNAL=GTest
-generated_dir:INTERNAL=/Users/roflanpotsan/roflanpotsan/tp-lab05/cmake-build-debug/test_dir/googletest/generated
+generated_dir:INTERNAL=/Users/roflanpotsan/roflanpotsan/tp-lab05/cmake-build-debug/third-party/gtest/googletest/generated
 //ADVANCED property for variable: gmock_build_tests
 gmock_build_tests-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: gtest_build_samples
