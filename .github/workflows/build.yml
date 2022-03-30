@@ -24,4 +24,8 @@ jobs:
         cd banking_lib_output
         make
         ./tests
+    - name: Coveralls
+      uses: coverallsapp/github-action@master
+      with:
+        github-token: ${{ secrets.GITHUB_TOKEN }}
 
