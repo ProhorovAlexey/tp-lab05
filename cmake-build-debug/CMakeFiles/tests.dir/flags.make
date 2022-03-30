@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/Users/roflanpotsan/roflanpotsan/tp-lab05/include -isystem /Users/roflanpotsan/roflanpotsan/tp-lab05/third-party/gtest/googletest/include -isystem /Users/roflanpotsan/roflanpotsan/tp-lab05/third-party/gtest/googletest
 
-CXX_FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++11
+CXX_FLAGS = -fprofile-arcs -ftest-coverage -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++11
 
