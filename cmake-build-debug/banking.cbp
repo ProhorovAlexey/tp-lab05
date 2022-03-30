@@ -55,7 +55,7 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/Users/roflanpotsan/roflanpotsan/tp-lab05/include"/>
-					<Add directory="/Users/roflanpotsan/roflanpotsan/tp-lab05/third-party"/>
+					<Add directory="/Users/roflanpotsan/roflanpotsan/tp-lab05/third-party/gtest"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
@@ -78,7 +78,7 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/Users/roflanpotsan/roflanpotsan/tp-lab05/include"/>
-					<Add directory="/Users/roflanpotsan/roflanpotsan/tp-lab05/third-party"/>
+					<Add directory="/Users/roflanpotsan/roflanpotsan/tp-lab05/third-party/gtest"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
@@ -111,7 +111,7 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/Users/roflanpotsan/roflanpotsan/tp-lab05/include"/>
-					<Add directory="/Users/roflanpotsan/roflanpotsan/tp-lab05/third-party"/>
+					<Add directory="/Users/roflanpotsan/roflanpotsan/tp-lab05/third-party/gtest"/>
 					<Add directory="/Users/roflanpotsan/roflanpotsan/tp-lab05/third-party/gtest/googletest/include"/>
 					<Add directory="/Users/roflanpotsan/roflanpotsan/tp-lab05/third-party/gtest/googletest"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
@@ -136,7 +136,7 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/Users/roflanpotsan/roflanpotsan/tp-lab05/include"/>
-					<Add directory="/Users/roflanpotsan/roflanpotsan/tp-lab05/third-party"/>
+					<Add directory="/Users/roflanpotsan/roflanpotsan/tp-lab05/third-party/gtest"/>
 					<Add directory="/Users/roflanpotsan/roflanpotsan/tp-lab05/third-party/gtest/googletest/include"/>
 					<Add directory="/Users/roflanpotsan/roflanpotsan/tp-lab05/third-party/gtest/googletest"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>

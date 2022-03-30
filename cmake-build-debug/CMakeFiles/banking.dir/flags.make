@@ -4,7 +4,7 @@
 # compile CXX with /Library/Developer/CommandLineTools/usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/roflanpotsan/roflanpotsan/tp-lab05/include -I/Users/roflanpotsan/roflanpotsan/tp-lab05/third-party
+CXX_INCLUDES = -I/Users/roflanpotsan/roflanpotsan/tp-lab05/include -I/Users/roflanpotsan/roflanpotsan/tp-lab05/third-party/gtest
 
 CXX_FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++11
 

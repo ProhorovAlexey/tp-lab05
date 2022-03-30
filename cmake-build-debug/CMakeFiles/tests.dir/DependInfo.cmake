@@ -15,7 +15,7 @@ set(CMAKE_CXX_COMPILER_ID "AppleClang")
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../include"
-  "../third-party"
+  "../third-party/gtest"
   "../third-party/gtest/googletest/include"
   "../third-party/gtest/googletest"
   )
