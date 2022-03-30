@@ -8,9 +8,11 @@ jobs:
      uses: actions/checkout@master
    - name: build library
      run: |
+      git submodule update --init --recursive
       cmake -B ./banking_lib_output
       cd banking_lib_output
       make
+      cd..
  tests:
   runs-on: ubuntu-latest
   steps:
@@ -18,6 +20,10 @@ jobs:
       uses: actions/checkout@master
     - name: testing
       run: |
+        git submodule update --init --recursive
+        cmake -B ./banking_lib_output
         cd banking_lib_output
+        make
         ./tests
+        cd ..
 
