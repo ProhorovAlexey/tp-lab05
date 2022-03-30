@@ -28,7 +28,7 @@ jobs:
       run: |
         npm install uuid@7.0.3 --force
         npm install coveralls --save-dev
-        make test-coverage
+        make tests
     - name: Coveralls
       uses: coverallsapp/github-action@master
       with:
