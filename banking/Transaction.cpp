@@ -1,10 +1,10 @@
-#include "Transaction.h"
+#include "../include/Transaction.h"
 
 #include <cassert>
 #include <iostream>
 #include <stdexcept>
 
-#include "Account.h"
+#include "../include/Account.h"
 
 namespace {
 // RAII
@@ -36,7 +36,7 @@ bool Transaction::Make(Account& from, Account& to, int sum) {
 
   Credit(to, sum);
 
-  bool success = Debit(to, sum + fee_);
+  bool success = Debit(from, sum + fee_);
   if (!success) to.ChangeBalance(-sum);
 
   SaveToDataBase(from, to, sum);
@@ -49,8 +49,8 @@ void Transaction::Credit(Account& accout, int sum) {
 }
 
 bool Transaction::Debit(Account& accout, int sum) {
-  assert(sum > 0);
-  if (accout.GetBalance() > sum) {
+  assert(sum >= 0);
+  if (accout.GetBalance() >= sum) {
     accout.ChangeBalance(-sum);
     return true;
   }
