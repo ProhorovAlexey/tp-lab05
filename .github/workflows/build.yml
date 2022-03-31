@@ -22,7 +22,7 @@ jobs:
         git submodule update --init --recursive
         cmake -B ./banking_lib_output
         cd banking_lib_output
-        make
+        make ./tests
         ./tests
 
     - name: install lcov and gcovr
