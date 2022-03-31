@@ -1,1 +1,0 @@
-/Library/Developer/CommandLineTools/usr/bin/c++ -fprofile-arcs -ftest-coverage -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/tests.dir/tests/test.cpp.o -o tests  libbanking.a lib/libgtest_main.a lib/libgtest.a 
