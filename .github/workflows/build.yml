@@ -25,21 +25,17 @@ jobs:
         make
         ./tests
 
-    - name: install lcov
+    - name: install lcov and gcovr
       run: |
-        sudo pip install --user cpp-coveralls
-        sudo apt-get install -y lcov
-
-    - name: run gcovr
-      run: |
-        sudo pip install gcovr
-        gcovr tests/test.cpp -o report
+       sudo pip install --user cpp-coveralls
+       sudo apt-get install -y lcov
 
     - name: run lcov
-      run: lcov --capture --directory . --output-file lcov.info
+      run: |
+       lcov --capture --directory . --output-file lcov.info
 
     - name: coveralls
       uses: coverallsapp/github-action@master
       with:
-        path-to-lcov: "./lcov.info"
-        github-token: ${{ secrets.github_token }}
+          path-to-lcov: "./lcov.info"
+          github-token: ${{ secrets.github_token }}
