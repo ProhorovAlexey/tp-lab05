@@ -2,6 +2,8 @@ cmake_minimum_required(VERSION 3.12)
 
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(GCC_COVERAGE_COMPILE_FLAGS "-fprofile-arcs -ftest-coverage")
+set(CMAKE_CXX_FLAGS "-fprofile-arcs -ftest-coverage")
 
 project(banking)
 
@@ -23,6 +25,3 @@ if(BUILD_TESTS)
   target_link_libraries(tests ${PROJECT_NAME} gtest_main)
   add_test(NAME unit_test COMMAND tests)
 endif()
-
-SET(GCC_COVERAGE_COMPILE_FLAGS "-fprofile-arcs -ftest-coverage")
-set(CMAKE_CXX_FLAGS "-fprofile-arcs -ftest-coverage")

@@ -22,7 +22,7 @@ jobs:
         git submodule update --init --recursive
         cmake -B ./banking_lib_output
         cd banking_lib_output
-        make ./tests
+        make
         ./tests
 
     - name: install lcov and gcovr
@@ -33,6 +33,7 @@ jobs:
     - name: run lcov
       run: |
        lcov --capture --directory . --output-file lcov.info
+       coverage report --omit=./third-party
 
     - name: coveralls
       uses: coverallsapp/github-action@master
