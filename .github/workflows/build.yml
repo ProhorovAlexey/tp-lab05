@@ -34,7 +34,8 @@ jobs:
       run: |
        lcov --capture --directory . --output-file lcov.info
        lcov --remove ./lcov.info -o ./lcov_filtered.info \
-           './third-party/*' \
+        './third-party' \
+        './tests' \
 
     - name: coveralls
       uses: coverallsapp/github-action@master
