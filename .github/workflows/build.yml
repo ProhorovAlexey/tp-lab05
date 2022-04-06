@@ -33,8 +33,7 @@ jobs:
     - name: run lcov
       run: |
        lcov --capture --directory banking_lib_output/CMakeFiles/banking.dir/banking --output-file ./lcov.info
-       lcov --remove ./lcov.info '/usr/include/*' -o ./lcov_filtered.info
-       lcov --remove ./lcov_filtered.info '/home/runner/work/tp-lab05/tp-lab05/third-party/gtest/*' -o ./lcov_filtered.info
+       lcov --remove ./lcov.info '/home/runner/work/tp-lab05/tp-lab05/third-party/gtest/*' -o ./lcov_filtered.info
 
     - name: coveralls
       uses: coverallsapp/github-action@master
