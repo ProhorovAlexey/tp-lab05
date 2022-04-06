@@ -33,10 +33,11 @@ jobs:
     - name: run lcov
       run: |
        lcov --capture --directory . --output-file lcov.info
-       coverage report --omit=./third-party
+       lcov --remove ./lcov.info -o ./lcov_filtered.info \
+           './third-party/*' \
 
     - name: coveralls
       uses: coverallsapp/github-action@master
       with:
-          path-to-lcov: "./lcov.info"
+          path-to-lcov: "./lcov_filtered.info"
           github-token: ${{ secrets.github_token }}
